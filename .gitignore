@@ -49,3 +49,4 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+/ESP32_Personal_Health_Wearable/personal_health_wearable_v2/personal_health_wearable_v2-backups
