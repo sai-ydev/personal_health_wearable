@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LQH3NPN2R2MJRL")(type "KiCad")(uri "C:/Users/yaman/OneDrive/Documents/KiCADLibraries/LQH3NPN2R2MJRL/LQH3NPN2R2MJRL.kicad_sym")(options "")(descr ""))
+  (lib (name "LMP91000SDE_NOPB")(type "KiCad")(uri "C:/Users/yaman/OneDrive/Documents/KiCADLibraries/LMP91000SDE_NOPB/LMP91000SDE_NOPB.kicad_sym")(options "")(descr ""))
+)
