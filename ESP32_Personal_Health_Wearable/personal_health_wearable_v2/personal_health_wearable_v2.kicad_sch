@@ -5,6 +5,444 @@
 	(uuid "88216a86-3b04-4f00-b598-4a78937d00f1")
 	(paper "A3")
 	(lib_symbols
+		(symbol "LMP91000SDE_NOPB:LMP91000SDE_NOPB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U4"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LMP91000SDE_NOPB"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LMP91000SDE_NOPB:SON50P400X400X80-15N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "WSON-14 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LMP91000SDE/NOPB/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "DEC 2014"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMP91000SDE/NOPB/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LMP91000SDE/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Configurable AFE potentiostat for low-power electrochemical cell monitoring"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LMP91000SDE_NOPB_0_0"
+				(rectangle
+					(start -12.7 -20.32)
+					(end 12.7 17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "WE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "RE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "CE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "~{MENB}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "C1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "C2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -15.24 180)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -17.78 180)
+					(length 5.08)
+					(name "DAP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LQH3NPN2R2MJRL:LQH3NPN2R2MJRL"
 			(pin_names
 				(offset 1.016)
@@ -3527,6 +3965,152 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-Resistor:0_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "RES-14244"
+				(at 0 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0_0402_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0_0402_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-Resistor:100_0402"
 			(pin_numbers
 				(hide yes)
@@ -4719,6 +5303,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 354.33 133.35)
@@ -4743,6 +5428,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "100c7045-c2b1-44c3-a0cf-9f36e61394ee")
+	)
+	(junction
+		(at 106.68 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10cd2b42-7d31-4327-bdb7-ac8a9616e952")
 	)
 	(junction
 		(at 377.19 36.83)
@@ -5084,6 +5775,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 250.19) (xy 86.36 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f18d27-3417-4190-a389-30da50324491")
+	)
+	(wire
+		(pts
 			(xy 339.09 113.03) (xy 339.09 111.76)
 		)
 		(stroke
@@ -5194,6 +5895,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 237.49) (xy 101.6 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cf64f8-182a-41a9-818c-7600c515cd03")
+	)
+	(wire
+		(pts
 			(xy 83.82 25.4) (xy 83.82 34.29)
 		)
 		(stroke
@@ -5221,6 +5932,16 @@
 			(type default)
 		)
 		(uuid "5dbffef6-a6dd-407e-b2ad-3e01b011e836")
+	)
+	(wire
+		(pts
+			(xy 63.5 243.84) (xy 63.5 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b7345a-bca8-40fb-b1f8-acdf65ec0274")
 	)
 	(wire
 		(pts
@@ -5311,6 +6032,16 @@
 			(type default)
 		)
 		(uuid "6d70b6e8-3ef1-453e-959e-94524001f895")
+	)
+	(wire
+		(pts
+			(xy 93.98 250.19) (xy 91.44 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7145c75e-2ee5-438b-b2e7-e9523de79db1")
 	)
 	(wire
 		(pts
@@ -5444,6 +6175,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 240.03) (xy 106.68 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a9b2df-98ae-46cf-a6ea-4b34747f9a4b")
+	)
+	(wire
+		(pts
 			(xy 50.8 29.21) (xy 53.34 29.21)
 		)
 		(stroke
@@ -5494,6 +6235,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 251.46) (xy 93.98 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e655016-8ed2-4ded-9ecb-765be35a05f3")
+	)
+	(wire
+		(pts
 			(xy 379.73 101.6) (xy 379.73 107.95)
 		)
 		(stroke
@@ -5511,6 +6262,16 @@
 			(type default)
 		)
 		(uuid "8faa02fb-994c-41bf-a3af-ee7903224794")
+	)
+	(wire
+		(pts
+			(xy 106.68 240.03) (xy 106.68 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd6e336-7692-4f46-ac4d-a35c5ee80c97")
 	)
 	(wire
 		(pts
@@ -5864,6 +6625,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 251.46) (xy 85.09 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc9303a-b59c-4117-8c5d-f4407c410d92")
+	)
+	(wire
+		(pts
+			(xy 106.68 243.84) (xy 106.68 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d6b181-fd50-4668-922e-3a0e988516b3")
+	)
+	(wire
+		(pts
 			(xy 356.87 133.35) (xy 354.33 133.35)
 		)
 		(stroke
@@ -5961,6 +6742,16 @@
 			(type default)
 		)
 		(uuid "e8c3bdd8-df75-4c14-afe7-b8a9a4bd507b")
+	)
+	(wire
+		(pts
+			(xy 63.5 237.49) (xy 66.04 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2963b3-598b-44fc-9dc0-f499714f50a6")
 	)
 	(wire
 		(pts
@@ -6092,6 +6883,16 @@
 		)
 		(uuid "ff0654c1-e0aa-4fa3-8274-7a2708bb84d2")
 	)
+	(label "~{MENB}"
+		(at 68.58 46.99 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "02d4d7e6-8d8c-4329-9e9b-977c9f898c9a")
+	)
 	(label "USBC.D+"
 		(at 374.65 49.53 0)
 		(effects
@@ -6208,6 +7009,26 @@
 			)
 		)
 	)
+	(label "SDA"
+		(at 68.58 52.07 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "654b7c5e-2445-4bb2-a477-4083d33b9ca3")
+		(property "Netclass" "Communication"
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(label "USBC.D+"
 		(at 118.11 49.53 0)
 		(effects
@@ -6236,6 +7057,26 @@
 					(italic yes)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "SCL"
+		(at 68.58 49.53 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e88a0e7-56b8-4b49-88f0-1f22e049400f")
+		(property "Netclass" "Communication"
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 				(hide yes)
 			)
 		)
@@ -6327,6 +7168,16 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "SDA"
+		(at 66.04 229.87 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4a3b93a-f25f-4741-a1cd-0860b2bf1830")
 	)
 	(label "ESP32.RX"
 		(at 100.33 41.91 0)
@@ -6423,6 +7274,36 @@
 			(justify right bottom)
 		)
 		(uuid "dff5292f-a87b-4e93-a28b-146bbb8b5471")
+	)
+	(label "~{MENB}"
+		(at 66.04 224.79 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "e56b8bce-0c1d-4125-9696-8a4eced85b16")
+		(property "Netclass" "Interrupts"
+			(at 66.04 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(label "SCL"
+		(at 66.04 227.33 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7d9559a-0ad1-4656-882f-12e502113c8f")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6598,6 +7479,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 63.5 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "043a849f-f032-4029-8bd0-c963d95086e9")
+		(property "Reference" "#PWR027"
+			(at 63.5 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 247.142 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86c51718-a7ad-4d87-b669-f13d52d71679")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LQH3NPN2R2MJRL:LQH3NPN2R2MJRL")
 		(at 355.6 95.25 0)
 		(unit 1)
@@ -6605,21 +7551,20 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c1b9c5a-a20f-457f-b1ac-8b8eed06a55e")
 		(property "Reference" "L2"
-			(at 355.6 88.9 0)
+			(at 361.696 94.488 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Value" "LQH3NPN2R2MJRL"
-			(at 355.6 91.44 0)
+			(at 355.092 96.266 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
@@ -7093,21 +8038,20 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f393f88-992e-44ee-b229-cfca01922563")
 		(property "Reference" "U3"
-			(at 356.87 97.79 0)
+			(at 355.854 101.854 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Value" "TPS63001"
-			(at 356.87 100.33 0)
+			(at 361.95 102.108 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
@@ -7184,6 +8128,212 @@
 			(project ""
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:0_0402")
+		(at 88.9 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f44ba38-5a68-4650-9313-69c638dc10ad")
+		(property "Reference" "R7"
+			(at 86.614 249.428 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 90.678 249.682 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 88.9 254.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
+			(at 88.9 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-14244"
+			(at 88.9 257.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dee4766-9f85-4454-889c-55156c0982cc")
+		)
+		(pin "2"
+			(uuid "1b283732-f8e5-48dc-91aa-0a91daff45c6")
+		)
+		(instances
+			(project ""
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 106.68 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a921d75-5e88-4b5e-8b64-7b253f7ba97f")
+		(property "Reference" "#PWR026"
+			(at 106.68 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 106.68 247.142 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 106.68 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daa7c26e-96df-4e81-9c15-e51382eb23e8")
+		)
+		(instances
+			(project ""
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e81a7a6-5dc2-4b4c-ace4-d657807ea3f9")
+		(property "Reference" "#PWR029"
+			(at 85.09 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 254.762 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ddcfc29-2614-4276-8325-ad8691f33a44")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7750,6 +8900,230 @@
 			(project "personal_health_wearable_v2"
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LMP91000SDE_NOPB:LMP91000SDE_NOPB")
+		(at 83.82 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "737eb0e0-cce0-435d-81ec-62649c154681")
+		(property "Reference" "U4"
+			(at 95.504 203.454 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "LMP91000SDE_NOPB"
+			(at 76.2 203.708 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "LMP91000SDE_NOPB:SON50P400X400X80-15N"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WSON-14 Texas Instruments"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LMP91000SDE/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "DEC 2014"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMP91000SDE/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LMP91000SDE/NOPB"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Configurable AFE potentiostat for low-power electrochemical cell monitoring"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 83.82 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "ed55ff76-3a99-4c62-a6dd-bd8e8e11384c")
+		)
+		(pin "4"
+			(uuid "e2e3fdaf-2aba-41bc-924d-5eb05099133b")
+		)
+		(pin "14"
+			(uuid "7456646a-e8aa-4f87-b858-9c24b6579b03")
+		)
+		(pin "2"
+			(uuid "fcf5f8ae-658c-40f0-a96b-bd852ae6bedb")
+		)
+		(pin "3"
+			(uuid "ef17387b-9495-4c2d-a1c1-91b366474257")
+		)
+		(pin "10"
+			(uuid "280d05c7-32bd-45e2-83cb-7fee42f6b274")
+		)
+		(pin "8"
+			(uuid "8fbbe421-f5af-41cf-b538-530649c3ba31")
+		)
+		(pin "7"
+			(uuid "44e9b504-f5fe-4bd8-a7bf-08646618602b")
+		)
+		(pin "13"
+			(uuid "1158f3fe-dde9-4717-a275-a478e51bfd02")
+		)
+		(pin "11"
+			(uuid "d06e30ae-32ee-47b6-84d8-31be6ca9d309")
+		)
+		(pin "15"
+			(uuid "dd7cb32f-0a9d-4385-b0c4-253ca033e322")
+		)
+		(pin "1"
+			(uuid "adcc72bb-0419-45fb-bab9-7a17c97ca8ac")
+		)
+		(pin "6"
+			(uuid "6dba24a2-5e23-4a87-9dde-685aac177376")
+		)
+		(pin "12"
+			(uuid "c958d6d6-b23f-4db8-b54e-67efb4d645b3")
+		)
+		(instances
+			(project ""
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10474,6 +11848,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 93.98 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec700eae-a758-4c8c-a0bb-31b871282c92")
+		(property "Reference" "#PWR028"
+			(at 93.98 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 93.98 254.762 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 93.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46f287fa-ee75-481e-a375-99d4c31193a8")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 50.8 63.5 0)
 		(unit 1)
@@ -10856,10 +12295,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c5c892c-1b08-4994-9eb3-778cd1a26874")
+			(uuid "1c5c892c-1b08-4994-9eb3-778cd1a26875")
 		)
 		(pin "2"
-			(uuid "c319d3be-3585-4930-b22f-392b4bebd497")
+			(uuid "c319d3be-3585-4930-b22f-392b4bebd498")
 		)
 		(instances
 			(project ""

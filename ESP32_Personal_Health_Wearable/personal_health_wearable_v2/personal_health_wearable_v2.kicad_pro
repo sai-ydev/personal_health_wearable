@@ -696,11 +696,20 @@
       "/LED": [
         "Passives"
       ],
+      "/SCL": [
+        "Communication"
+      ],
+      "/SDA": [
+        "Communication"
+      ],
       "/VINA": [
         "Power"
       ],
       "/~{BOOT}": [
         "Passives"
+      ],
+      "/~{MENB}": [
+        "Interrupts"
       ],
       "/~{RESET}": [
         "Passives"
