@@ -9253,12 +9253,6 @@
 		(uuid "17b629a7-7937-46cd-ad2d-a13595218eda")
 	)
 	(junction
-		(at 339.09 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f217182-5ae5-4b71-afe5-b584190c6de3")
-	)
-	(junction
 		(at 195.58 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9571,6 +9565,12 @@
 		(uuid "ed13d903-7bc2-470c-9bd7-462fa33e1285")
 	)
 	(junction
+		(at 331.47 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0616f85-d093-4c29-b358-8b0e19de491b")
+	)
+	(junction
 		(at 214.63 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9587,10 +9587,6 @@
 		(uuid "07308ef1-1119-4978-b736-97fffad84ec9")
 	)
 	(no_connect
-		(at 68.58 62.23)
-		(uuid "18a3450b-9ab9-472b-959f-acc8eba93bbf")
-	)
-	(no_connect
 		(at 35.56 222.25)
 		(uuid "32062850-724b-4d06-b1b3-8e29b4e207b5")
 	)
@@ -9601,10 +9597,6 @@
 	(no_connect
 		(at 374.65 44.45)
 		(uuid "4f696878-570d-4a98-bb14-fb812791623c")
-	)
-	(no_connect
-		(at 68.58 59.69)
-		(uuid "a5e1ca1f-7ff9-47c1-bb01-19fd7989fb4a")
 	)
 	(no_connect
 		(at 60.96 229.87)
@@ -9773,6 +9765,16 @@
 			(type default)
 		)
 		(uuid "0c1440c3-2ee2-4ffb-ad09-1a709e255c51")
+	)
+	(wire
+		(pts
+			(xy 331.47 218.44) (xy 332.74 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dba7be7-5e5c-4bd5-9036-8bb2bc2191da")
 	)
 	(wire
 		(pts
@@ -10566,7 +10568,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 109.22) (xy 330.2 109.22)
+			(xy 330.2 109.22) (xy 346.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -10716,7 +10718,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 218.44) (xy 332.74 218.44)
+			(xy 328.93 218.44) (xy 331.47 218.44)
 		)
 		(stroke
 			(width 0)
@@ -11983,16 +11985,6 @@
 			(type default)
 		)
 		(uuid "bae495d5-8806-4f34-98a1-e6af9ea6ceb5")
-	)
-	(wire
-		(pts
-			(xy 346.71 109.22) (xy 339.09 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbac7148-04cb-4f9f-86f7-9ed65bf60330")
 	)
 	(wire
 		(pts
@@ -13474,6 +13466,16 @@
 		)
 		(uuid "71c84c80-3328-49d2-bf44-aa56f194309e")
 	)
+	(label "~{CHG}"
+		(at 68.58 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "721385da-8a90-4682-9cb1-59cb665da734")
+	)
 	(label "USBC.D+"
 		(at 118.11 49.53 0)
 		(effects
@@ -14031,6 +14033,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9fc7c9e-ff0c-4a31-9abf-2a0216fcb8ad")
+	)
+	(label "~{PGOOD}"
+		(at 68.58 59.69 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf29759b-8f53-4b97-9fe2-d757ee52f588")
 	)
 	(label "WE2"
 		(at 35.56 224.79 0)
@@ -16071,72 +16083,6 @@
 			(project "personal_health_wearable_v2"
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 339.09 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "269c77a8-31ec-448a-bf34-a9a1172e2ae4")
-		(property "Reference" "#FLG01"
-			(at 339.09 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 332.994 107.442 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 339.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 339.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 339.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bd07f02-17b6-4350-a09b-12645ad3bda8")
-		)
-		(instances
-			(project "personal_health_wearable_v2"
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -18634,7 +18580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:JST_1x02_P2.0mm_Horizontal_SMD"
+		(property "Footprint" "SparkFun-Connector:JST_1x02_P2.0mm_Horizontal_SMD"
 			(at 316.23 229.87 0)
 			(effects
 				(font
@@ -22614,6 +22560,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 331.47 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b366f8d2-6642-41d0-b48d-7b13d625ad91")
+		(property "Reference" "#FLG01"
+			(at 331.47 216.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 329.946 215.392 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 331.47 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdc98685-c7de-4f19-9ebc-bc9c70b183f9")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:1.0uF_0402_16V_10%")
 		(at 368.3 171.45 90)
 		(unit 1)
@@ -25368,7 +25380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "SparkFun-Resistor:R_0402_1005Metric"
 			(at 329.692 232.41 0)
 			(effects
 				(font
