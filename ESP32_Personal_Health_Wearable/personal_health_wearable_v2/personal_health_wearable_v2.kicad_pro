@@ -226,7 +226,36 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|2222500|762000|4200bd61-4d5a-42db-8f7f-68cc3e81993f|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|3479800|1739900|f16296bc-454f-4b95-aa34-0bc39af6af8d|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|3568700|1155700|1f393f88-992e-44ee-b229-cfca01922563|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|787400|2324100|ae47c300-fb62-4f8a-a873-34e648d20eb7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|800100|1409700|737eb0e0-cce0-435d-81ec-62649c154681|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_to_pin|2260600|1206500|e458c23e-810c-4e87-9ab3-44c610f79050|6105d919-0a81-4b1b-8424-406ed8af7858|/88216a86-3b04-4f00-b598-4a78937d00f1|/88216a86-3b04-4f00-b598-4a78937d00f1|/88216a86-3b04-4f00-b598-4a78937d00f1",
+        ""
+      ],
+      [
+        "pin_to_pin|2260600|317500|fe51383f-1616-4623-aed9-9a10966a76a8|5af047f9-db60-4c3e-ac44-96c7f9b3a181|/88216a86-3b04-4f00-b598-4a78937d00f1|/88216a86-3b04-4f00-b598-4a78937d00f1|/88216a86-3b04-4f00-b598-4a78937d00f1",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -672,11 +701,74 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/ALERT_ADS1115": [
+        "Interrupts"
+      ],
+      "/BATTERY": [
+        "Power"
+      ],
+      "/BIN": [
+        "Interrupts"
+      ],
+      "/BS": [
+        "Communication"
+      ],
+      "/BUSY": [
+        "Communication"
+      ],
+      "/C1N": [
+        "Power"
+      ],
+      "/C1P": [
+        "Power"
+      ],
+      "/C2N": [
+        "Power"
+      ],
+      "/C2P": [
+        "Power"
+      ],
+      "/C3N": [
+        "Power"
+      ],
+      "/C3P": [
+        "Power"
+      ],
+      "/C4N": [
+        "Power"
+      ],
+      "/C4P": [
+        "Power"
+      ],
+      "/C5N": [
+        "Power"
+      ],
+      "/C5P": [
+        "Power"
+      ],
+      "/C6N": [
+        "Power"
+      ],
+      "/C6P": [
+        "Power"
+      ],
       "/CC1": [
         "Passives"
       ],
       "/CC2": [
         "Passives"
+      ],
+      "/CLK": [
+        "Communication"
+      ],
+      "/CS": [
+        "Communication"
+      ],
+      "/DC": [
+        "Communication"
+      ],
+      "/DIN": [
+        "Communication"
       ],
       "/ESP32.RX": [
         "Communication"
@@ -684,7 +776,16 @@
       "/ESP32.TX": [
         "Communication"
       ],
+      "/GPOUT": [
+        "Passives"
+      ],
+      "/ILIM": [
+        "Passives"
+      ],
       "/IO8": [
+        "Passives"
+      ],
+      "/ISET": [
         "Passives"
       ],
       "/L1": [
@@ -696,19 +797,49 @@
       "/LED": [
         "Passives"
       ],
+      "/RE": [
+        "Analog"
+      ],
+      "/RST": [
+        "Communication"
+      ],
       "/SCL": [
         "Communication"
       ],
       "/SDA": [
         "Communication"
       ],
+      "/TS": [
+        "Passives"
+      ],
       "/VINA": [
         "Power"
+      ],
+      "/WE1": [
+        "Analog"
+      ],
+      "/WE2": [
+        "Analog"
       ],
       "/~{BOOT}": [
         "Passives"
       ],
+      "/~{CE}": [
+        "Passives"
+      ],
+      "/~{CHG}": [
+        "Interrupts"
+      ],
+      "/~{MENB_WE1}": [
+        "Interrupts"
+      ],
+      "/~{MENB_WE2}": [
+        "Interrupts"
+      ],
       "/~{MENB}": [
+        "Interrupts"
+      ],
+      "/~{PGOOD}": [
         "Interrupts"
       ],
       "/~{RESET}": [

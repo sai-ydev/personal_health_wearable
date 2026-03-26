@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "LQH3NPN2R2MJRL")(type "KiCad")(uri "C:/Users/yaman/OneDrive/Documents/KiCADLibraries/LQH3NPN2R2MJRL/LQH3NPN2R2MJRL.kicad_sym")(options "")(descr ""))
   (lib (name "LMP91000SDE_NOPB")(type "KiCad")(uri "C:/Users/yaman/OneDrive/Documents/KiCADLibraries/LMP91000SDE_NOPB/LMP91000SDE_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "HLW5R-2C7LF")(type "KiCad")(uri "C:/Users/yaman/OneDrive/Documents/KiCADLibraries/HLW5R-2C7LF/HLW5R-2C7LF.kicad_sym")(options "")(descr ""))
+  (lib (name "FH12A-30S-0.5SH(55)")(type "EasyEDA (JLCEDA) Pro")(uri "C:/Users/yaman/Downloads/ProLib_pcs_2026-03-21.elibz")(options "")(descr ""))
 )
