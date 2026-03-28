@@ -51,8 +51,89 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 0.25,
+          "width": 0.25
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.25,
+          "width": 0.3
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|143307500|104395000|2b10b642-976b-4f4e-be92-4ff1bbcbfd95|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|152500000|80172936|aaee434d-ef13-4191-91db-82ca068bfabf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|160772500|105680000|4f7e407c-b4d5-4e9a-abc5-95cb10412a86|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|145750000|84300000|754cf4c8-4fd0-4707-9e30-cc92fb17867b|fdd247ac-b8ff-4b9c-9401-da5bbce83c2b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|159250000|79097936|ca83e372-4137-4942-ae38-2546c32c3df7|c4c04914-2492-404c-a8ca-a50af36d7c4b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|159250000|84300000|754cf4c8-4fd0-4707-9e30-cc92fb17867b|152d0303-f48a-4e47-9f6f-fa98a8d0ab56",
+          ""
+        ],
+        [
+          "silk_over_copper|150099386|103878627|5d11a36c-8889-47ad-bff4-466138ba90a5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|149120000|102641190|51bf62e9-6f37-4e42-9f5c-4b6b85ba5af1|5d11a36c-8889-47ad-bff4-466138ba90a5",
+          ""
+        ],
+        [
+          "silk_overlap|149880000|102641190|5d11a36c-8889-47ad-bff4-466138ba90a5|e96a470d-20ea-4582-9b8a-8b8c2d68f02d",
+          ""
+        ],
+        [
+          "starved_thermal|160775000|104730000|29dbdc13-c689-4e8d-be68-cee695e41a07|136519f6-643c-4faa-8b9d-48eb6913c756|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|160775000|106630000|29dbdc13-c689-4e8d-be68-cee695e41a07|136519f6-643c-4faa-8b9d-48eb6913c756|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|167600000|106200000|29dbdc13-c689-4e8d-be68-cee695e41a07|8e740853-3576-4408-991f-c53969662363|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|167600000|99800000|29dbdc13-c689-4e8d-be68-cee695e41a07|4bb62b65-410b-4243-9e44-5e73362a04d6|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|168180000|98675000|29dbdc13-c689-4e8d-be68-cee695e41a07|b5cda157-b615-4397-bf22-c1ffa5958657|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|174600000|110060000|29dbdc13-c689-4e8d-be68-cee695e41a07|10147db6-325a-4ca3-89c9-da730c60f350|F.Cu",
+          ""
+        ],
+        [
+          "track_dangling|162650000|103080000|32706ed8-fab1-40d7-ae60-c75a9dccf352|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -133,7 +214,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -180,7 +261,18 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1,
+        0.12,
+        0.15,
+        0.2,
+        0.3,
+        0.5,
+        0.75,
+        0.8,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +299,36 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.35,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.381,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.5278,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -233,6 +354,10 @@
       ],
       [
         "lib_symbol_mismatch|3479800|1739900|f16296bc-454f-4b95-aa34-0bc39af6af8d|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|3479800|2286000|8cc7c32f-1d81-49a4-8c97-9ffe5db70451|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
@@ -976,13 +1101,13 @@
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": "\t",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "TSV",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
-      "string_delimiter": "\""
+      "string_delimiter": ""
     },
     "bom_presets": [],
     "bom_settings": {
@@ -1160,6 +1285,48 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VDrop",
+          "name": "VDrop",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VMax",
+          "name": "VMax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
           "show": false
         }
       ],

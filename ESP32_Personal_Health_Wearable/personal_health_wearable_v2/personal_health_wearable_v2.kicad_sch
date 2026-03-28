@@ -2868,453 +2868,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:USBLC6-2SC6"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0.635 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USBLC6-2SC6"
-				(at 0.635 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-				(at 1.27 -8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "usb ethernet video"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USBLC6-2SC6_0_0"
-				(circle
-					(center -1.524 0)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.508 2.032)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.508 -4.572)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.508 2.032)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.508 -4.572)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.524 -2.54)
-					(radius 0.0001)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USBLC6-2SC6_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -3.048) (xy -1.016 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -2.032 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
-						(xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -3.048) (xy 2.032 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USBLC6-2SC6_1_1"
-				(rectangle
-					(start -2.54 2.794)
-					(end 2.54 -5.334)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "I/O1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "I/O1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "I/O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_Module:ESP32-C6-MINI-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9253,12 +8806,6 @@
 		(uuid "17b629a7-7937-46cd-ad2d-a13595218eda")
 	)
 	(junction
-		(at 339.09 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f217182-5ae5-4b71-afe5-b584190c6de3")
-	)
-	(junction
 		(at 195.58 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9269,6 +8816,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28f84755-2e78-4b18-89f2-8d22719b1e0f")
+	)
+	(junction
+		(at 365.76 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ae990c4-c042-4e17-84c0-87b71027b0e3")
 	)
 	(junction
 		(at 332.74 198.12)
@@ -9347,6 +8900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b2619c8-7f90-4d01-821d-1a32035710e0")
+	)
+	(junction
+		(at 325.12 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6545c773-3baa-4d2a-b548-658e5fa12616")
 	)
 	(junction
 		(at 347.98 200.66)
@@ -9559,6 +9118,12 @@
 		(uuid "ed13d903-7bc2-470c-9bd7-462fa33e1285")
 	)
 	(junction
+		(at 331.47 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0616f85-d093-4c29-b358-8b0e19de491b")
+	)
+	(junction
 		(at 214.63 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9571,20 +9136,8 @@
 		(uuid "f5919c16-77d2-4bac-813d-dfb8eee288f4")
 	)
 	(no_connect
-		(at 99.06 52.07)
-		(uuid "028a90ae-237a-419b-889b-4676edbfecc7")
-	)
-	(no_connect
 		(at 35.56 217.17)
 		(uuid "07308ef1-1119-4978-b736-97fffad84ec9")
-	)
-	(no_connect
-		(at 99.06 54.61)
-		(uuid "10d04c71-cbbd-4653-95f4-efb42aca7d05")
-	)
-	(no_connect
-		(at 68.58 62.23)
-		(uuid "18a3450b-9ab9-472b-959f-acc8eba93bbf")
 	)
 	(no_connect
 		(at 35.56 222.25)
@@ -9597,10 +9150,6 @@
 	(no_connect
 		(at 374.65 44.45)
 		(uuid "4f696878-570d-4a98-bb14-fb812791623c")
-	)
-	(no_connect
-		(at 68.58 59.69)
-		(uuid "a5e1ca1f-7ff9-47c1-bb01-19fd7989fb4a")
 	)
 	(no_connect
 		(at 60.96 229.87)
@@ -9769,6 +9318,16 @@
 			(type default)
 		)
 		(uuid "0c1440c3-2ee2-4ffb-ad09-1a709e255c51")
+	)
+	(wire
+		(pts
+			(xy 331.47 218.44) (xy 332.74 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dba7be7-5e5c-4bd5-9036-8bb2bc2191da")
 	)
 	(wire
 		(pts
@@ -10252,6 +9811,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 208.28) (xy 320.04 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35679399-9d8f-4445-bdf2-542caafc5769")
+	)
+	(wire
+		(pts
 			(xy 346.71 118.11) (xy 342.9 118.11)
 		)
 		(stroke
@@ -10309,16 +9878,6 @@
 			(type default)
 		)
 		(uuid "399e3aa8-b8ea-41dc-beae-94ead18f802d")
-	)
-	(wire
-		(pts
-			(xy 81.28 168.91) (xy 82.55 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f18d27-3417-4190-a389-30da50324491")
 	)
 	(wire
 		(pts
@@ -10522,6 +10081,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 220.98) (xy 368.3 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fda0fb6-a354-46cf-a25f-cb78164fc66a")
+	)
+	(wire
+		(pts
 			(xy 350.52 189.23) (xy 350.52 200.66)
 		)
 		(stroke
@@ -10542,7 +10111,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 109.22) (xy 330.2 109.22)
+			(xy 330.2 109.22) (xy 346.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -10609,6 +10178,16 @@
 			(type default)
 		)
 		(uuid "5506a7eb-a1c1-48ba-92f6-d29584dc4301")
+	)
+	(wire
+		(pts
+			(xy 377.19 220.98) (xy 373.38 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5663c9aa-9e0c-4579-b0fa-49903d4ba6b4")
 	)
 	(wire
 		(pts
@@ -10682,7 +10261,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 218.44) (xy 332.74 218.44)
+			(xy 328.93 218.44) (xy 331.47 218.44)
 		)
 		(stroke
 			(width 0)
@@ -10839,6 +10418,16 @@
 			(type default)
 		)
 		(uuid "6637210d-dc16-47cd-a30c-f91314bbb503")
+	)
+	(wire
+		(pts
+			(xy 328.93 208.28) (xy 326.39 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c94110-842c-486a-b5fc-b7481f384314")
 	)
 	(wire
 		(pts
@@ -11012,26 +10601,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 168.91) (xy 87.63 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7145c75e-2ee5-438b-b2e7-e9523de79db1")
-	)
-	(wire
-		(pts
-			(xy 113.03 36.83) (xy 113.03 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72831d9c-d943-48ac-8d73-0a969df35c88")
-	)
-	(wire
-		(pts
 			(xy 110.49 25.4) (xy 107.95 25.4)
 		)
 		(stroke
@@ -11052,16 +10621,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 49.53) (xy 107.95 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74cbc735-b064-430a-9f98-c38f26d6e1f8")
-	)
-	(wire
-		(pts
 			(xy 92.71 31.75) (xy 92.71 33.02)
 		)
 		(stroke
@@ -11069,16 +10628,6 @@
 			(type default)
 		)
 		(uuid "75a9853c-77fc-47c3-af94-348aa6fcf23e")
-	)
-	(wire
-		(pts
-			(xy 113.03 54.61) (xy 113.03 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "773b8531-cc7d-4674-90ec-05012e68d897")
 	)
 	(wire
 		(pts
@@ -11272,6 +10821,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 208.28) (xy 320.04 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8adba59c-84ad-41a0-a969-e5bbe21e41fd")
+	)
+	(wire
+		(pts
 			(xy 325.12 43.18) (xy 325.12 41.91)
 		)
 		(stroke
@@ -11359,16 +10918,6 @@
 			(type default)
 		)
 		(uuid "8cbce8a3-062e-4a22-8ad4-cbc62166ef3c")
-	)
-	(wire
-		(pts
-			(xy 90.17 170.18) (xy 90.17 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e655016-8ed2-4ded-9ecb-765be35a05f3")
 	)
 	(wire
 		(pts
@@ -11632,16 +11181,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 209.55) (xy 328.93 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8bf691d-dfd3-4f3c-9355-fb149da00828")
-	)
-	(wire
-		(pts
 			(xy 327.66 233.68) (xy 327.66 236.22)
 		)
 		(stroke
@@ -11882,16 +11421,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 20.32) (xy 107.95 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b756f371-50aa-4ecb-8f89-88ae042edf73")
-	)
-	(wire
-		(pts
 			(xy 364.49 171.45) (xy 360.68 171.45)
 		)
 		(stroke
@@ -11922,6 +11451,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 20.32) (xy 107.95 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f11a83-c4c6-4ba0-8521-93366162ef94")
+	)
+	(wire
+		(pts
 			(xy 374.65 67.31) (xy 383.54 67.31)
 		)
 		(stroke
@@ -11939,16 +11478,6 @@
 			(type default)
 		)
 		(uuid "bae495d5-8806-4f34-98a1-e6af9ea6ceb5")
-	)
-	(wire
-		(pts
-			(xy 346.71 109.22) (xy 339.09 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbac7148-04cb-4f9f-86f7-9ed65bf60330")
 	)
 	(wire
 		(pts
@@ -12039,6 +11568,16 @@
 			(type default)
 		)
 		(uuid "bfc4bdfb-9476-4fd9-ac89-f69605fe9eca")
+	)
+	(wire
+		(pts
+			(xy 110.49 20.32) (xy 107.95 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e6f144-b986-4caa-bc79-ffd38645396e")
 	)
 	(wire
 		(pts
@@ -12152,6 +11691,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 233.68) (xy 312.42 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c992b833-9140-450b-8cc6-87a1fb285d68")
+	)
+	(wire
+		(pts
 			(xy 48.26 34.29) (xy 53.34 34.29)
 		)
 		(stroke
@@ -12202,16 +11751,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 170.18) (xy 81.28 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc9303a-b59c-4117-8c5d-f4407c410d92")
-	)
-	(wire
-		(pts
 			(xy 217.17 41.91) (xy 209.55 41.91)
 		)
 		(stroke
@@ -12242,6 +11781,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 218.44) (xy 328.93 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18c1400-e1bd-4156-938d-4a8069a4fb0b")
+	)
+	(wire
+		(pts
 			(xy 82.55 256.54) (xy 82.55 255.27)
 		)
 		(stroke
@@ -12259,6 +11808,16 @@
 			(type default)
 		)
 		(uuid "d3e34181-d25e-4d6f-8606-ee1541fe570b")
+	)
+	(wire
+		(pts
+			(xy 312.42 236.22) (xy 325.12 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4950639-4dc0-4d54-ba45-ed129c62fae6")
 	)
 	(wire
 		(pts
@@ -12622,16 +12181,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 46.99) (xy 107.95 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efdc942b-ee7e-4693-80d7-1873d1839e61")
-	)
-	(wire
-		(pts
 			(xy 327.66 228.6) (xy 325.12 228.6)
 		)
 		(stroke
@@ -12762,6 +12311,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 223.52) (xy 377.19 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9471f77-c547-4534-bdc3-f6fc896e7a28")
+	)
+	(wire
+		(pts
 			(xy 96.52 217.17) (xy 100.33 217.17)
 		)
 		(stroke
@@ -12779,16 +12338,6 @@
 			(type default)
 		)
 		(uuid "fa97b863-2819-4f26-a2f3-05d4bede91cd")
-	)
-	(wire
-		(pts
-			(xy 110.49 20.32) (xy 107.95 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbab34db-3286-4281-941a-b8e697cac41f")
 	)
 	(wire
 		(pts
@@ -12883,16 +12432,6 @@
 			(justify left bottom)
 		)
 		(uuid "05578568-efba-4548-aa96-d3f4744b1c63")
-	)
-	(label "USB.D-"
-		(at 101.6 46.99 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "091b2ab9-b2f0-4bba-9149-0e164de75da5")
 	)
 	(label "SCL"
 		(at 139.7 182.88 0)
@@ -13134,16 +12673,6 @@
 			)
 		)
 	)
-	(label "USBC.D-"
-		(at 118.11 46.99 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d958566-3195-4950-b434-f791f93c313b")
-	)
 	(label "~{CE}"
 		(at 353.06 191.77 0)
 		(fields_autoplaced yes)
@@ -13165,16 +12694,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(label "USB.D+"
-		(at 101.6 49.53 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "4cb43dbb-b731-4f29-9b87-fbcc6d80b4ea")
 	)
 	(label "C6N"
 		(at 212.09 77.47 0)
@@ -13269,6 +12788,16 @@
 			(justify left bottom)
 		)
 		(uuid "57556c89-c0df-41a5-81e8-327a790e8a6a")
+	)
+	(label "GPOUT"
+		(at 99.06 54.61 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "58aa9416-4327-449c-b8e0-110723c5bfb3")
 	)
 	(label "TS"
 		(at 344.17 190.5 90)
@@ -13380,15 +12909,15 @@
 		)
 		(uuid "71c84c80-3328-49d2-bf44-aa56f194309e")
 	)
-	(label "USBC.D+"
-		(at 118.11 49.53 0)
+	(label "~{CHG}"
+		(at 68.58 62.23 180)
 		(effects
 			(font
-				(size 0.635 0.635)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "7a85a3dc-8490-4770-bbb1-a8c8373c3114")
+		(uuid "721385da-8a90-4682-9cb1-59cb665da734")
 	)
 	(label "C1N"
 		(at 214.63 102.87 0)
@@ -13712,6 +13241,16 @@
 			)
 		)
 	)
+	(label "BIN"
+		(at 99.06 52.07 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eff0053-ae49-436e-829a-38c3eafcaaa6")
+	)
 	(label "IO8"
 		(at 66.04 64.77 0)
 		(fields_autoplaced yes)
@@ -13778,6 +13317,38 @@
 		(uuid "adc17602-0c2f-4b44-a55f-9c8b23b9fefa")
 		(property "Netclass" "Power"
 			(at 210.82 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "USBC.D+"
+		(at 99.06 49.53 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "aead57ca-d9b0-4990-b755-da952ab64c58")
+	)
+	(label "BATTERY"
+		(at 322.58 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "b06ca7cb-d95f-44b0-b923-b5196774e83e")
+		(property "Netclass" "Power"
+			(at 322.58 219.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13905,6 +13476,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9fc7c9e-ff0c-4a31-9abf-2a0216fcb8ad")
+	)
+	(label "~{PGOOD}"
+		(at 68.58 59.69 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf29759b-8f53-4b97-9fe2-d757ee52f588")
 	)
 	(label "WE2"
 		(at 35.56 224.79 0)
@@ -14190,6 +13771,16 @@
 			(justify left bottom)
 		)
 		(uuid "ebbcb1e2-64b3-412e-a213-7a3c8fe99183")
+	)
+	(label "USBC.D-"
+		(at 99.06 46.99 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "efce7fa0-23bc-471c-8ab1-b24bd4276864")
 	)
 	(label "C3N"
 		(at 212.09 92.71 0)
@@ -14869,6 +14460,109 @@
 			(project "personal_health_wearable_v2"
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:1.0uF_0402_16V_10%")
+		(at 323.85 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10252685-6f96-43c0-9fa4-f91f5e316dd5")
+		(property "Reference" "C33"
+			(at 322.072 207.518 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "1.0uF"
+			(at 326.136 207.518 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 335.28 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 337.82 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 342.9 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-14969"
+			(at 340.36 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 323.8563 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 323.8563 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C361059"
+			(at 323.85 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f681c2e5-c80d-43ae-a0f0-c84874c30743")
+		)
+		(pin "1"
+			(uuid "f811273a-caa9-4e2e-94c9-3aad191d4345")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -15578,6 +15272,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 334.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cda62401-8f69-4b99-84fb-ff292102c2fb")
 		)
@@ -15697,91 +15400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:0_0402")
-		(at 85.09 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f44ba38-5a68-4650-9313-69c638dc10ad")
-		(property "Reference" "R7"
-			(at 82.804 168.148 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 86.868 168.402 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.09 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
-			(at 85.09 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "RES-14244"
-			(at 85.09 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17168"
-			(at 85.09 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dee4766-9f85-4454-889c-55156c0982cc")
-		)
-		(pin "2"
-			(uuid "1b283732-f8e5-48dc-91aa-0a91daff45c6")
-		)
-		(instances
-			(project ""
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 130.81 20.32 0)
 		(unit 1)
@@ -15842,72 +15460,6 @@
 			(project "personal_health_wearable_v2"
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 339.09 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "269c77a8-31ec-448a-bf34-a9a1172e2ae4")
-		(property "Reference" "#FLG01"
-			(at 339.09 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 332.994 107.442 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 339.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 339.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 339.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bd07f02-17b6-4350-a09b-12645ad3bda8")
-		)
-		(instances
-			(project "personal_health_wearable_v2"
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -16277,6 +15829,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 377.19 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35d92beb-c268-4114-9bc3-ca000f4525d6")
+		(property "Reference" "#PWR060"
+			(at 377.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 377.19 226.822 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 377.19 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c94bbd9-d3b0-4012-8baa-1d326e5c7386")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 107.95 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36820fba-337b-4f94-b410-047ea32ea419")
+		(property "Reference" "#PWR019"
+			(at 107.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 107.95 14.732 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 107.95 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aede27f-8cc3-4c97-9246-a696c5d79e03")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 213.36 67.31 0)
 		(unit 1)
@@ -16402,71 +16085,6 @@
 			(project ""
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 81.28 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e81a7a6-5dc2-4b4c-ace4-d657807ea3f9")
-		(property "Reference" "#PWR029"
-			(at 81.28 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 173.482 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ddcfc29-2614-4276-8325-ad8691f33a44")
-		)
-		(instances
-			(project "personal_health_wearable_v2"
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17688,16 +17306,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:VBATT")
-		(at 328.93 209.55 0)
+		(lib_id "power:GNDA")
+		(at 87.63 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5a7c919f-3e59-4919-87a2-51da4518e081")
-		(property "Reference" "#PWR060"
-			(at 328.93 213.36 0)
+		(uuid "598f13ea-a6d5-45a2-bed0-5ec8bc2524c7")
+		(property "Reference" "#PWR023"
+			(at 87.63 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17705,17 +17323,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBATT"
-			(at 329.184 206.502 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDA"
+			(at 87.63 212.852 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 209.55 0)
+			(at 87.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17724,7 +17341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 209.55 0)
+			(at 87.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17732,8 +17349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBATT\""
-			(at 328.93 215.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 87.63 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17742,12 +17359,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "63ad7feb-f282-4749-982d-e1066aab81ff")
+			(uuid "54cfd88a-515e-4216-ab00-f1a8cee71271")
 		)
 		(instances
-			(project ""
+			(project "personal_health_wearable_v2"
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#PWR060")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -17819,72 +17436,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:VUSB")
-		(at 107.95 16.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c7720a6-058e-4fc9-b9ba-b435f9d9ce14")
-		(property "Reference" "#PWR019"
-			(at 107.95 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 107.95 13.462 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 107.95 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13561fb7-921d-47dd-8549-beaffdf444c4")
-		)
-		(instances
-			(project "personal_health_wearable_v2"
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 325.12 43.18 0)
 		(unit 1)
@@ -17944,6 +17495,71 @@
 			(project "personal_health_wearable_v2"
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 95.25 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cf66d31-648f-4e42-822d-495a13b80565")
+		(property "Reference" "#PWR016"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 95.25 122.682 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9db642e6-ced9-4fec-9619-48148e692884")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18184,71 +17800,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "699fc6f5-2365-45f8-a3ad-a8b4e95eeff1")
-		(property "Reference" "#PWR023"
-			(at 87.63 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 212.852 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c46a69ca-ebfc-4289-a93d-62f16b20c112")
-		)
-		(instances
-			(project "personal_health_wearable_v2"
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 58.42 19.05 0)
 		(unit 1)
@@ -18406,7 +17957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:JST_1x02_P2.0mm_Horizontal_SMD"
+		(property "Footprint" "SparkFun-Connector:JST_1x02_P2.0mm_Horizontal_SMD"
 			(at 316.23 229.87 0)
 			(effects
 				(font
@@ -18435,6 +17986,15 @@
 		)
 		(property "PROD_ID" "CONN-11443"
 			(at 316.23 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C295747"
+			(at 316.23 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19768,72 +19328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:VUSB")
-		(at 113.03 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c3860b8-6911-40c7-9f6e-069e8b2f6fea")
-		(property "Reference" "#PWR017"
-			(at 113.03 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 113.03 33.782 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 113.03 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ad405b2-836f-42f6-9b61-4682564d9d18")
-		)
-		(instances
-			(project "personal_health_wearable_v2"
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 73.66 0)
 		(unit 1)
@@ -20110,6 +19604,72 @@
 			(project "personal_health_wearable_v2"
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:VBATT")
+		(at 312.42 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88c21e88-5a43-4ac6-b2d9-d72c58aa0722")
+		(property "Reference" "#PWR063"
+			(at 312.42 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBATT"
+			(at 312.42 230.632 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBATT\""
+			(at 312.42 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "803ec02e-521a-4f6e-b61f-23a909ee82d3")
+		)
+		(instances
+			(project ""
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -20397,6 +19957,15 @@
 			)
 		)
 		(property "Description" "System Side Li Ion/Polymer Fuel Gauge, 4.2V, PDSON-12"
+			(at 347.98 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C473397"
 			(at 347.98 228.6 0)
 			(effects
 				(font
@@ -20799,71 +20368,6 @@
 			(project "personal_health_wearable_v2"
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96536bfe-f0e8-45d4-9155-046e3aebdf7c")
-		(property "Reference" "#PWR031"
-			(at 95.25 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 122.682 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48f8cb03-7340-4cb8-9ea1-a53b0c2bbb03")
-		)
-		(instances
-			(project "personal_health_wearable_v2"
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -21725,71 +21229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9990fa2-40df-4c7f-a6fe-efb4d3e97f76")
-		(property "Reference" "#PWR016"
-			(at 113.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 60.452 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cbdb561-6d5b-48ce-88a5-60503855ebb4")
-		)
-		(instances
-			(project "personal_health_wearable_v2"
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LMP91000SDE_NOPB:LMP91000SDE_NOPB")
 		(at 78.74 232.41 0)
 		(unit 1)
@@ -22314,6 +21753,72 @@
 			(project ""
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 331.47 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b366f8d2-6642-41d0-b48d-7b13d625ad91")
+		(property "Reference" "#FLG01"
+			(at 331.47 216.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 329.946 215.392 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 331.47 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdc98685-c7de-4f19-9ebc-bc9c70b183f9")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -24983,71 +24488,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 90.17 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec700eae-a758-4c8c-a0bb-31b871282c92")
-		(property "Reference" "#PWR028"
-			(at 90.17 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 90.17 173.482 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46f287fa-ee75-481e-a375-99d4c31193a8")
-		)
-		(instances
-			(project "personal_health_wearable_v2"
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Resistor:0_0402")
 		(at 325.12 232.41 90)
 		(unit 1)
@@ -25074,7 +24514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "SparkFun-Resistor:R_0402_1005Metric"
 			(at 329.692 232.41 0)
 			(effects
 				(font
@@ -25195,6 +24635,71 @@
 			(project "personal_health_wearable_v2"
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 320.04 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edddee1e-d9a9-400b-af59-0cdff78b7a94")
+		(property "Reference" "#PWR062"
+			(at 320.04 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.04 212.852 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 320.04 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1c394e4-de04-4989-a162-585fa4e03738")
+		)
+		(instances
+			(project "personal_health_wearable_v2"
+				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -25517,99 +25022,6 @@
 			(project ""
 				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 113.03 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5630b85-9cea-405f-9678-89e07a44a109")
-		(property "Reference" "U2"
-			(at 109.728 43.434 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USBLC6-2SC6"
-			(at 114.046 43.18 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 114.3 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 113.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7519"
-			(at 113.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "f7a7b676-0129-4c2c-af5b-cff23e93a649")
-		)
-		(pin "2"
-			(uuid "9aaedcb1-8cdb-4c9a-8871-a1b1f04ac001")
-		)
-		(pin "4"
-			(uuid "bb27f304-5335-477b-8eea-72401feb2cba")
-		)
-		(pin "1"
-			(uuid "95d5036b-183e-4468-8466-9a52e8b560b0")
-		)
-		(pin "3"
-			(uuid "9739b2da-c6f6-4baa-86f8-8137dc5668c6")
-		)
-		(pin "5"
-			(uuid "aed8282a-c682-4e70-b975-6cc01ec91c32")
-		)
-		(instances
-			(project ""
-				(path "/88216a86-3b04-4f00-b598-4a78937d00f1"
-					(reference "U2")
 					(unit 1)
 				)
 			)
